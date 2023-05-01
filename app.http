@@ -1,8 +1,8 @@
 ###get
-http://localhost:3000/players/
+GET http://localhost:3000/players/
 
 ###get player Id
-http://localhost:3000/players/3/
+GET http://localhost:3000/players/3/
 
 ###put
 PUT http://localhost:3000/players/2/
@@ -13,13 +13,13 @@ Content-Type: application/json
 }
 
 ### get match Id
-http://localhost:3000/matches/5/
+GET http://localhost:3000/matches/5/
 
 ### get all match details
-http://localhost:3000/players/1/matches
+GET http://localhost:3000/players/1/matches
 
 ### get specific players
-http://localhost:3000/matches/1/players
+GET http://localhost:3000/matches/1/players
 
 ### get tortalm scores
-http://localhost:3000/players/2/playerScores
+GET http://localhost:3000/players/2/playerScores
